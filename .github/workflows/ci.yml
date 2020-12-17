@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: olafurpg/setup-scala@v10
       - name: Test
-        run: sbt test
+        run: sbt ';test;test;test'
